@@ -28,13 +28,27 @@ $unit-four: 24px;
 $unit-five: 48px;
 
 @font-face {
-	font-family: "Grotesk";
-	src: url(/assets/PxGrotesk-Regular.otf) format("opentype")
+    font-family: 'GroteskRegular';
+    src: url('/assets/pxgrotesk-regular-webfont.woff2') format('woff2'),
+         url('/assets/pxgrotesk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-	font-family: "Tiempos";
-	src: url(/assets/TiemposHeadline-Medium.otf) format("opentype")
+    font-family: 'GroteskBold';
+    src: url('/assets/pxgrotesk-bold-webfont.woff2') format('woff2'),
+         url('/assets/pxgrotesk-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Tiempos';
+    src: url('/assets/tiemposheadline-medium-webfont.woff2') format('woff2'),
+         url('/assets/tiemposheadline-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body {
@@ -61,7 +75,7 @@ body {
 }
 
 body {
-	font-family: "Grotesk",sans-serif;
+	font-family: "GroteskRegular",sans-serif;
 	margin: 0 2em;
 	font-size: 110%;
 	color: $primary-color;
@@ -80,7 +94,7 @@ h2, h2.post-title {
 }
 
 h3 {
-	font-family: "Grotesk",sans-serif;
+	font-family: "GroteskBold",sans-serif;
 	color: $tertiary-header-color;
 	font-weight: bold;
 }
