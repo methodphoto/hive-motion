@@ -29,23 +29,23 @@ $unit-five: 48px;
 
 @font-face {
     font-family: 'GroteskRegular';
-    src: url('https://methodphoto.github.io/hive-motion//assets/pxgrotesk-regular-webfont.woff2') format('woff2'),
-         url('https://methodphoto.github.io/hive-motion//assets/pxgrotesk-regular-webfont.woff') format('woff');
+    src: url('pxgrotesk-regular-webfont.woff2') format('woff2'),
+         url('pxgrotesk-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GroteskBold';
-    src: url('https://methodphoto.github.io/hive-motion//assets/pxgrotesk-bold-webfont.woff2') format('woff2'),
-         url('https://methodphoto.github.io/hive-motion//assets/pxgrotesk-bold-webfont.woff') format('woff');
+    src: url('pxgrotesk-bold-webfont.woff2') format('woff2'),
+         url('pxgrotesk-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: bold;
 }
 @font-face {
     font-family: 'Tiempos';
-    src: url('https://methodphoto.github.io/hive-motion//assets/tiemposheadline-medium-webfont.woff2') format('woff2'),
-         url('https://methodphoto.github.io/hive-motion//assets/tiemposheadline-medium-webfont.woff') format('woff');
+    src: url('tiemposheadline-medium-webfont.woff2') format('woff2'),
+         url('tiemposheadline-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
