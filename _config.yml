@@ -1,0 +1,6 @@
+title: "Hive Motion"
+theme: minima
+email: richard@method.co.uk
+baseurl: "/" # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site, e.g. http://example.com
+heading_anchors: false
