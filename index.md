@@ -40,7 +40,7 @@ nav_exclude: true
  
 ### Know Your Power style
  
- 1. Subtle Zoom reveal is live
+**Subtle Zoom reveal**
  
  - Typography in/outs should be limited to these styles to create a consistency
  - In order to retrain a refined feel and avoid busyness, styles should be limited to 1-2 per video for content 45 seconds and under, and 1-3 styles for videos over 45 seconds. 
