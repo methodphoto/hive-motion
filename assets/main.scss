@@ -12,7 +12,9 @@ $primary-header-color: #FF5900;
 $secondary-header-color: #4252F1;
 $tertiary-header-color: #FF7A33;
 $primary-link-color: #4252F1;
-
+$white: #fff;
+$warm-white: #FFF6EF;
+$test-background-color: #fff;
 
 $unit-one: 8px;
 $unit-two: 12px;
@@ -107,10 +109,6 @@ button {box-shadow: none;}
 
 .links:hover {background-color: $primary-header-color;}
 
-.other {background-color: $secondary-link-color;}
-
-.social-links img {margin-right: $unit-four;}
-
 .space {margin-bottom: $unit-three;}
 
 .book-sales {
@@ -119,17 +117,7 @@ button {box-shadow: none;}
 	padding: $unit-two;
 }
 
-.book-sales:hover {box-shadow: 0px 2px 8px 0px rgba(0, 19, 70, 0.10);}
 	
-.norm {background-color: $test-background-color;}
-.alt {background-color: $alt-background-color;}
-
-.book-sales-container {
-	display: flex;
-	gap: 1rem;
-	flex-direction: column;
-	margin: 1rem;
-}
 
 @media only screen and (min-width: 600px) {
 	.book-sales-container {
