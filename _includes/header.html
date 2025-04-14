@@ -5,6 +5,8 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><img src="/assets/hive.svg" height="100%" width="100%" alt="Hive Motion" />
 </a>
+
+    {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -14,13 +16,6 @@
 </svg>
           </span>
         </label>
-        <div class="trigger">        
-        	<a class="page-link" href="/index">Galleries</a>
-        	<a class="page-link" href="/books/">Books</a>
-        	<a class="page-link" href="/blog/">Blog</a>
-        	<a class="page-link" href="/book-sales/">2nd hand books</a>
-        	<a class="page-link" href="/about">About</a>
-        </div>
       </nav>
     {%- endif -%}
   </div>
