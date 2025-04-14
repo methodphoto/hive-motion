@@ -23,6 +23,8 @@ nav_exclude: true
   - Primary option = Wordmark + Know Your Power
   - Secondary option = Logo + Know Your Power (example = Hive+ videos where a Hive+ outro has been used)
   - Hive + Know Your Power should always be on the liquorice background
+  
+<video src="/hive-motion/assets/outro-primary.mp4" width="80%" controls></video>
 
 ## Typography
  
