@@ -21,11 +21,15 @@ $black: $primary-text-color;
 $warm-white: #FFF6EF;
 $test-background-color: $white;
 
+/* Units */
+
 $unit-one: 8px;
 $unit-two: 12px;
 $unit-three: 16px;
 $unit-four: 24px;
 $unit-five: 48px;
+
+/* Font Definitions */
 
 @font-face {
     font-family: 'GroteskRegular';
@@ -50,6 +54,8 @@ $unit-five: 48px;
     font-style: normal;
 
 }
+
+/* Main CSS */
 
 body {
 	margin-left: $unit-three !important;
@@ -150,7 +156,7 @@ button {box-shadow: none;}
 	padding: $unit-two;
 }
 
-	
+/* Other devices */	
 
 @media only screen and (min-width: 600px) {
 	.book-sales-container {
