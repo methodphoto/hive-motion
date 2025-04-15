@@ -7,19 +7,19 @@
 
 /* Colour Definitions */
 
-$primary-color: #12090E;
+$primary-text-color: #12090E;
 $primary-header-color: #FF5900;
 $secondary-header-color: #4252F1;
 $tertiary-header-color: #FF7A33;
 $primary-link-color: #4252F1;
 $secondary-link-color: #996699;
 $primary-tint-color: #EFFBFB;
-$test-background-color: #eeeeee;
+$test-background-color: $white;
 $alt-background-color: #F9F0F0;
 $white: #fff;
-$black: #12090E;
+$black: $primary-text-color;
 $warm-white: #FFF6EF;
-$test-background-color: #fff;
+$test-background-color: $white;
 
 $unit-one: 8px;
 $unit-two: 12px;
@@ -78,7 +78,7 @@ body {
 	font-family: "GroteskRegular",sans-serif;
 	margin: 0 2em;
 	font-size: 110%;
-	color: $primary-color;
+	color: $primary-text-color;
 }
 
 h1, h1.post-title {
