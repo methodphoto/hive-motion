@@ -106,6 +106,12 @@ h3 {
 	font-weight: bold;
 }
 
+h4 {
+	font-family: "GroteskBold",sans-serif;
+	color: $secondary-header-color;
+	font-weight: normal;
+}
+
 .button {
 	min-width: 288px !important;
 	height: $unit-five;
