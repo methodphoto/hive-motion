@@ -2,7 +2,6 @@
 
 ---
 
-
 @import "minima";
 
 /* Colour Definitions */
@@ -63,8 +62,8 @@ body {
 }
 
 .wrapper {
-    max-width: -webkit-calc(1280px -(15px * 2));
-    max-width: calc(1280px -(15px * 2));
+    max-width: -webkit-calc(14400px -(15px * 2));
+    max-width: calc(1440px -(15px * 2));
     margin-right: auto;
     margin-left: auto;
     padding-left: 0 !important;
