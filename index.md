@@ -30,11 +30,21 @@ nav_exclude: true
  
 ### Basic
  
- 1. Push up/down
- 2. Subtile zoom reveal
- 3. Instant text
- <video src="/hive-motion/assets/typography-instant.mp4" width="80%" controls></video>
- 4. Word by word/sentence by sentence slide
+#### Push up/down
+
+#### Subtile zoom reveal
+
+#### Instant text
+
+This 'Instant Text' style is used for the following scenarios:
+
+ 1. XXX
+ 2. YYY
+ 3. ZZZ
+
+<video src="/hive-motion/assets/typography-instant.mp4" width="80%" controls></video>
+ 
+#### Word by word/sentence by sentence slide
  
 ### Special styles
  
