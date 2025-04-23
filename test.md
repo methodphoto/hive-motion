@@ -24,7 +24,7 @@ nav_exclude: true
   - Secondary option = Logo + Know Your Power (example = Hive+ videos where a Hive+ outro has been used)
   - Hive + Know Your Power should always be on the liquorice background
   
-<video src="/hive-motion/assets/outro-primary.mp4" width="80%" controls></video>
+<video src="/hive-motion/assets/outro-primary.mp4" width="80%" autoplay></video>
 
 ## Typography
  
@@ -42,7 +42,7 @@ This 'Instant Text' style is used for the following scenarios:
  2. YYY
  3. ZZZ
 
-<video src="/hive-motion/assets/typography-instant.mp4" width="80%" controls></video>
+<video src="/hive-motion/assets/typography-instant.mp4" width="80%" autoplay></video>
  
 #### Word by word/sentence by sentence slide
  
