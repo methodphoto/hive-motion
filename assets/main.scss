@@ -62,8 +62,8 @@ body {
 }
 
 .wrapper {
-    max-width: -webkit-calc(1440px -(15px * 2));
-    max-width: calc(1440px -(15px * 2));
+    max-width: -webkit-calc(1280px - (15px * 2));
+    max-width: calc(1280px - (15px * 2));
     margin-right: auto;
     margin-left: auto;
     padding-left: 0 !important;
@@ -72,8 +72,8 @@ body {
 
 @media screen and (max-width: 800px) {
     .wrapper {
-        max-width: -webkit-calc(800px -(15px));
-        max-width: calc(800px -(15px));
+        max-width: -webkit-calc(800px - (15px));
+        max-width: calc(800px - (15px));
         padding-left: 0 !important;
     	padding-right: 0 !important;
     }
